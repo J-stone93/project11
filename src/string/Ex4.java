@@ -31,7 +31,7 @@ public class Ex4 {
 		String[] strArr = str2.split(":");
 		
 		for (int i = 0; i < strArr.length; i++) {
-			System.out.println(strArr[i]);
+			System.out.print(strArr[i]);
 		}
 		
 	}

@@ -15,7 +15,7 @@ public class Quiz5 {
 			i--;
 		}
 
-		for (int j = 4; j >= 0; j--) {
+		for (int j = (str.length() - 1); j >= 0; j--) {
 			System.out.print(str.charAt(j));
 		}
 
