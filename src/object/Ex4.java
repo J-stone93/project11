@@ -31,6 +31,7 @@ class Book {
 	}
 
 	// source -> generate tostring 메뉴
+	// 인스턴스의 리턴 주소값을 아래와 같은 내용으로 리턴되게 바꿈
 	@Override
 	public String toString() {
 		return "Book [bookNumber=" + bookNumber + ", bookTitle=" + bookTitle + "]";
